@@ -16,6 +16,14 @@ string reverseWord(string str){
     {
         s=s+str[i];
     }
+     
+      
     return s;
   //Your code here
 }
+
+              /* using swap */
+//  for(int i=0;i<s.length()/2;i++)
+//      {
+//         swap(s[i],s[s.length()-i-1]);
+//      }

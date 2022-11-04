@@ -15,14 +15,14 @@ https://www.geeksforgeeks.org/top-50-string-coding-problems-for-interviews/
 
 ### inbuilt Method:-
 
-- toupper:-  for(int i=0;i<s.length();i++)
-             ans=ans+(char)tolower(s[i]);
+- toupper:- (char)tolower(s[i]);
 - tolower:- (char)toupper(s[i]);
 
 
-- Transform:- transform(s.begin(), s.end(), s.begin(), ::tolower);
-           transform(s.begin(), s.end(), s.begin(), ::toupper);
+ Transform:- 
+- transform(s.begin(), s.end(), s.begin(), ::tolower);
+- transform(s.begin(), s.end(), s.begin(), ::toupper);
 
-- Find:-  s1.find(s2[i]):- find s2[i] in s1 
+- Find:-  s1.find(s2[i]):- it means <find s2[i] in s1>
 
         

@@ -1,5 +1,5 @@
 # gfg_string_question
-https://www.geeksforgeeks.org/top-50-string-coding-problems-for-interviews/
+ https://www.geeksforgeeks.org/top-50-string-coding-problems-for-interviews/
 
 ## Importance
 - playing with characters test logic of programmer very well
@@ -10,7 +10,7 @@ https://www.geeksforgeeks.org/top-50-string-coding-problems-for-interviews/
 - 48 to 57 - Number
 - 65 to 90 - uppercase [(s[0]>='a'&&s[0]<='z']
 - 97 to 122 - lowercase [(s[0]>='A'&&s[0]<='Z']
--lowercase = lowercase + 32
+- lowercase = lowercase + 32
 
 
 ### inbuilt Method:-

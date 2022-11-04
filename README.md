@@ -4,6 +4,8 @@
 ## Importance
 - playing with characters test logic of programmer very well
 - understanding of C++ Standard Template Library(STL) also increase
+- frequently asked string coding questions in every coding round
+
 
 ## Key Points
 ### ascii value:-

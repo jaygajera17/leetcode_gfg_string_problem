@@ -37,22 +37,3 @@ class Solution
      return '#'; // '#' = -1 in ascii
     }
 };
-
-/* 
-  if given find FIRST repeated character 
-
-   string ans="";
-    unordered_map<char,int>m;
-    for(int i=0;i<s.length();i++)
-    {
-        m[s[i]]++;
-       
-        if(m[s[i]]==2)
-        {
-            ans=ans+s[i];
-            return  ans;
-        }
-    }
-
-
-*/

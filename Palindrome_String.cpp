@@ -32,3 +32,33 @@ int isPalindrome(string s)
 	    }else
 	    return 1;
 	}
+
+
+//**************************************** Using Recursion********************
+
+#include <iostream>
+
+using namespace std;
+
+bool f(int i,int n,string &s)
+{
+    if(i>=n/2)
+    {
+        return true;
+    }
+    if(s[i]!=s[s.size()-i-1])
+    {
+        return false;
+    }
+    return f(i+1,n,s);
+}
+
+int main()
+{
+    string s="ababa";
+    int n=5;
+    int i=0;
+    cout<<f(i,n,s);
+
+    return 0;
+}

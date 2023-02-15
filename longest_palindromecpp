@@ -1,0 +1,24 @@
+/* https://leetcode.com/problems/longest-palindrome/ */
+
+class Solution {
+public:
+    int longestPalindrome(string s) {
+        unordered_map<char,int>m;
+        for(int i=0;i<s.length();i++)
+        {
+            m[s[i]]++;
+        }
+       int count=0;
+        for(auto i:m)
+        {
+            if(i.second%2!=0)
+            {
+                count++;
+            }
+        }
+        if(count>1)  // if there is  odd times appear char we can only fit one in the middle , rest of are even which can make palindrome , so total length-odd+1
+        return s.length()-count+1;
+        else
+        return s.length();  //there is no odd number of times character then it is even number's string which is definitely palindrome
+    }
+};

@@ -57,3 +57,25 @@ mno.pqr
       }
      return ans1+t;
     }
+
+
+    // https://leetcode.com/problems/reverse-words-in-a-string
+
+
+    string reverseWords(string s) {
+        stringstream ss(s);
+        string word;
+        vector<string>v;
+        while(ss>>word)
+        {
+            v.push_back(word);
+            v.push_back(" ");
+        }
+        v.pop_back();
+        reverse(v.begin(),v.end());
+        string ans;
+        for(auto i:v)
+        {
+            ans=ans+i;
+        }
+        return ans;

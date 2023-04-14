@@ -25,6 +25,15 @@
 - transform(s.begin(), s.end(), s.begin(), ::tolower);
 - transform(s.begin(), s.end(), s.begin(), ::toupper);
 
-- Find:-  s1.find(s2[i]):- it means <find s2[i] in s1>
+- Find:-  s1.find(s2[i])!=string::npos:- it means <find s2[i] in s1> is present
+
+- token:- stringstream 
+  ex:    string s = "geeks for geeks"; 
+         stringstream ss(s); // Used for breaking words 
+         string word; // to store individual words 
+         while (ss >> word) 
+         cout << word << endl;
+
+         
 
         

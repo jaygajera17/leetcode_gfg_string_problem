@@ -28,12 +28,13 @@
 - Find:-  s1.find(s2[i])!=string::npos:- it means <find s2[i] in s1> is present
 
 - token:- stringstream 
-  ex:    string s = "geeks for geeks"; 
-         stringstream ss(s); // Used for breaking words 
-         string word; // to store individual words 
-         while (ss >> word) 
-         cout << word << endl;
-
+  ex:    <br>string s = "geeks for geeks"; 
+         stringstream ss(s); // Used for breaking words <br>
+         string word; // to store individual words <br>
+         while (ss >> word) <br>
+         cout << word << endl; <br>
+        
+- next_permutation()
          
 
         
